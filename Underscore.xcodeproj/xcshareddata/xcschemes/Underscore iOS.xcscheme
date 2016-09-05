@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F08B19321D7D7D4000503CDC"
-               BuildableName = "Underscore iOS.framework"
+               BuildableName = "Underscore.framework"
                BlueprintName = "Underscore iOS"
                ReferencedContainer = "container:Underscore.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F08B19321D7D7D4000503CDC"
-            BuildableName = "Underscore iOS.framework"
+            BuildableName = "Underscore.framework"
             BlueprintName = "Underscore iOS"
             ReferencedContainer = "container:Underscore.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F08B19321D7D7D4000503CDC"
-            BuildableName = "Underscore iOS.framework"
+            BuildableName = "Underscore.framework"
             BlueprintName = "Underscore iOS"
             ReferencedContainer = "container:Underscore.xcodeproj">
          </BuildableReference>

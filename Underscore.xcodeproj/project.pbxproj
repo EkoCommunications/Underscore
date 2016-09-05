@@ -12,7 +12,7 @@
 		F08B193F1D7D7EF600503CDC /* USArrayWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F08B19171D7D7CDE00503CDC /* USArrayWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F08B19401D7D7EF600503CDC /* USConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = F08B19191D7D7CDE00503CDC /* USConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F08B19411D7D7EF600503CDC /* USDictionaryWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F08B191A1D7D7CDE00503CDC /* USDictionaryWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F08B19421D7D7EFE00503CDC /* Underscore.h in Headers */ = {isa = PBXBuildFile; fileRef = F08B192C1D7D7CF200503CDC /* Underscore.h */; };
+		F08B19421D7D7EFE00503CDC /* UnderscorePublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F08B192C1D7D7CF200503CDC /* UnderscorePublicHeader.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		F08B19191D7D7CDE00503CDC /* USConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USConstants.h; sourceTree = "<group>"; };
 		F08B191A1D7D7CDE00503CDC /* USDictionaryWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USDictionaryWrapper.h; sourceTree = "<group>"; };
 		F08B191B1D7D7CDE00503CDC /* USDictionaryWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USDictionaryWrapper.m; sourceTree = "<group>"; };
-		F08B192C1D7D7CF200503CDC /* Underscore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Underscore.h; sourceTree = "<group>"; };
+		F08B192C1D7D7CF200503CDC /* UnderscorePublicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderscorePublicHeader.h; sourceTree = "<group>"; };
 		F08B19331D7D7D4000503CDC /* Underscore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Underscore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08B193B1D7D7D5900503CDC /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +66,7 @@
 		F08B19081D7D7CC900503CDC /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				F08B192C1D7D7CF200503CDC /* Underscore.h */,
+				F08B192C1D7D7CF200503CDC /* UnderscorePublicHeader.h */,
 				F08B193B1D7D7D5900503CDC /* Info-iOS.plist */,
 				F08B19091D7D7CDE00503CDC /* Underscore */,
 			);
@@ -123,7 +123,7 @@
 				F08B193F1D7D7EF600503CDC /* USArrayWrapper.h in Headers */,
 				F08B19401D7D7EF600503CDC /* USConstants.h in Headers */,
 				F08B19411D7D7EF600503CDC /* USDictionaryWrapper.h in Headers */,
-				F08B19421D7D7EFE00503CDC /* Underscore.h in Headers */,
+				F08B19421D7D7EFE00503CDC /* UnderscorePublicHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +340,7 @@
 				F08B193A1D7D7D4100503CDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
